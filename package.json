@@ -1,0 +1,19 @@
+{
+  "name": "asincronismo-javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/challenge.js"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Isabel Rodriguez susethsant23@gmail.com",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "type": "module"
+}
