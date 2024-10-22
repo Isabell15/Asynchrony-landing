@@ -13,12 +13,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs":{
+  "bugs": {
     "url": "https://github.com/Isabell15/Asynchrony-landing/issues"
   },
   "homepage": "https://github.com/Isabell15/Asynchrony-landing#readme",
-"devDependencies": {
-  "gh-pages": "6.2.0"
-
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }

@@ -30,7 +30,7 @@ fetchData(`${API}/products`)
     })
     .then(response => response.json()) //se vuelve traer la data
     .then(product => {
-        console.log(products.title)
+        console.log(product.title)
         return fetchData(`${API}/categories/${product.category.id}`) //se quiere mostrar la categoria de un producto en particular
     })
     .then(response => response.json())
